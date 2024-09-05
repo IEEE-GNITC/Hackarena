@@ -49,7 +49,7 @@ const FAQ = () => {
             </span>
           </button>
           {activeIndex === index && (
-            <div className="p-4 text-gray-900 bg-gray-200 font-mono">
+            <div className="p-4 text-gray-900 bg-gray-200 font-serif">
               {faq.answer}
             </div>
           )}

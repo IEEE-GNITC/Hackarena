@@ -14,10 +14,10 @@ function App() {
   return (
     <>
       <Nav />
-      {/* <Home />
+      <Home />
       <About />
-      <Guidelines />
-      <Themes /> */}
+      {/* <Guidelines /> */}
+      {/* <Themes /> */}
       <FAQ />
       <Contact />
 

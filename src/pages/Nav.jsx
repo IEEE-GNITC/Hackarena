@@ -1,5 +1,7 @@
 import { IoIosMenu } from "react-icons/io";
 import { RiCloseLargeFill } from "react-icons/ri";
+import DropdownMenu from "../pages/DropDown"
+import theme_pattern from '../assets/theme_pattern.svg'
 
 
 import React, { useState } from "react";
@@ -12,14 +14,17 @@ function Nav() {
   };
 
   return (
-    <div className="sticky top-0 z-50 bg-white">
-      <p className="md:flex m-2 justify-center hidden items-center text-xl">
-        <a href="">IEEE GNITC</a>
-      </p>
+    <div className="sticky top-0 z-50 bg-[#eefff9]">
+      <div className="  md:flex m-2 justify-center hidden items-center relative ">
+        <a href="">
+          <h1 className="md:text-[60px]  font-semibold">IEEE GNITC</h1>
+        </a>
+        <img src={theme_pattern} alt="" className=" absolute bottom-[0px]  -z-[1]" />
+      </div>
       <div className="hidden md:flex m-2 p-4 justify-around border-y border-black items-center">
         <a href="#Home">Home</a>
         <a href="#About">About</a>
-        <a href="#Guidelines">Guidelines</a>
+        <a href="#Guidelines" ><DropdownMenu/></a>
         <a href="#Themes">Themes</a>
         <a href="#FAQ">FAQ</a>
         <a href="#Contact">Contact Us</a>
