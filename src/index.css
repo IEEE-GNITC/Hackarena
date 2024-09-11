@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-  background:linear-gradient(#eefff9 15%,#ffccc1 49%, #dcdbff 100%);
+  background:linear-gradient(#96cfbb 15%,#ec8a73 49%, #605db1 100%);
 }
 
 .form-control{
