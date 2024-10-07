@@ -21,10 +21,10 @@ function App() {
       <Nav />
       <Home />
       <About />
-  
+      <Guidelines/>
       <FAQ />
       <Contact />
-      <Themes />
+      {/* <Themes /> */}
     
    
       </div>
