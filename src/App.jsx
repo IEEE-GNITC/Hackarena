@@ -3,6 +3,7 @@ import Nav from './pages/Nav'
 import Home from './pages/Home'
 import About from './pages/About'
 import Guidelines from './pages/Guidelines'
+import More from './pages/More'
 import Themes from './pages/Themes'
 import Contact from './pages/Contact'
 import './index.css'
@@ -22,7 +23,8 @@ function App() {
       <Home />
       <About />
       <Guidelines/>
-      <FAQ />
+      <More/>
+            <FAQ />
       <Contact />
       {/* <Themes /> */}
     
