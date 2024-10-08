@@ -24,8 +24,8 @@ function Nav() {
       <div className="hidden md:flex m-2 p-4 justify-around border-y border-black items-center">
         <a href="#Home">Home</a>
         <a href="#About">About</a>
-        <a href="#Guidelines" ><DropdownMenu/></a>
-        <a href="#Themes">Themes</a>
+        <a href="#Guidelines">Guidelines</a>
+        <a href="#More">Themes</a>
         <a href="#FAQ">FAQ</a>
         <a href="#Contact">Contact Us</a>
       </div>
@@ -60,7 +60,7 @@ function Nav() {
           <a href="#Guidelines" className="text-white text-xl m-4" onClick={toggleMenu}>
             Guidelines
           </a>
-          <a href="#Themes" className="text-white text-xl m-4" onClick={toggleMenu}>
+          <a href="#More" className="text-white text-xl m-4" onClick={toggleMenu}>
             Themes
           </a>
           <a href="#FAQ" className="text-white text-xl m-4" onClick={toggleMenu}>
