@@ -3,7 +3,7 @@ import React from "react";
 import { MdOutlineMail } from "react-icons/md";
 import { MdAddCall } from "react-icons/md";
 import { BsTwitterX } from "react-icons/bs";
-import { FaInstagram } from "react-icons/fa6";
+import { FaInstagram, FaLinkedin } from "react-icons/fa6";
 import { TfiLocationPin } from "react-icons/tfi";
 function Contact() {
   return (
@@ -74,16 +74,20 @@ function Contact() {
           </span>
           
           <span className=" flex gap-3 my-2 items-center justify-center text-xl">
-          <BsTwitterX />
+          {/* <BsTwitterX /> */}
             {/* <a href="https://x.com/IEEE_GNITC">x-twitter</a> */}
           </span>
           <span className=" flex my-2 gap-3 items-center justify-center text-xl">
           <FaInstagram />
             <a href="https://www.instagram.com/ieee_gni/">Instagram</a>
           </span>
+          <span className=" flex my-2 gap-3 items-center justify-center text-xl">
+          <FaLinkedin />
+            <a href="https://www.linkedin.com/company/ieee-gnitc/">Linkedin</a>
+          </span>
           <span className=" my-2 flex gap-3 items-center justify-center text-xl">
           <span className="text-2xl"><TfiLocationPin /></span>
-            <a href="https://www.google.com/maps/dir//5M66%2BX3V,+Unnamed+Road,+Ibrahimpatnam,+Telangana+501506/@17.1619862,78.6456483,13.46z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3bcb09dabc04d5b9:0x333765a35bb449cd?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D">Gurunanak Institute of Technology </a>
+            <a href="https://www.google.com/maps/dir//5M66%2BX3V,+Unnamed+Road,+Ibrahimpatnam,+Telangana+501506/@17.1619862,78.6456483,13.46z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3bcb09dabc04d5b9:0x333765a35bb449cd?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D">Gurunanak Institutions </a>
           </span>
         </div>
       </div>

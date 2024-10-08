@@ -25,7 +25,6 @@ function App() {
       <FAQ />
       <Contact />
       {/* <Themes /> */}
-    
    
       </div>
     
