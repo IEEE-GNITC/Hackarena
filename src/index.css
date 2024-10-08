@@ -3,8 +3,10 @@
 @tailwind utilities;
 
 body{
-  background:linear-gradient(#96cfbb 15%,#ec8a73 49%, #605db1 100%);
+	 background: rgb(39,219,255);
+background: linear-gradient(93deg, rgba(39,219,255,1) 0%, rgba(149,228,255,1) 97%, rgba(215,194,213,1) 98%, rgba(215,193,213,1) 100%);
 }
+
 
 .form-control{
   display: block;
